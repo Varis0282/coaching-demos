@@ -37,7 +37,7 @@ export default function Results() {
               ? "And hundreds more in boards, NTSE, SSC and banking — ask for the full selection list at reception."
               : "और बोर्ड, NTSE, SSC व बैंकिंग में सैकड़ों और — पूरी चयन सूची रिसेप्शन पर उपलब्ध है।"}
           </p>
-          <Link href={`${BASE}/contact`} className="mt-6 inline-block bg-[#2F6BFF] px-8 py-4 font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#1E54E0]">
+          <Link href={`${BASE}/contact#book`} className="mt-6 inline-block bg-[#2F6BFF] px-8 py-4 font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#1E54E0]">
             {t.hero.cta1}
           </Link>
         </div>

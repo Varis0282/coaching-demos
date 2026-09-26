@@ -26,7 +26,7 @@ export default function Courses() {
                 <div>
                   <h3 className="text-lg font-extrabold">{d.title}</h3>
                   <p className="mt-2 text-[#8A7A66]">{d.desc}</p>
-                  <Link href={`${BASE}/contact`} className="mt-3 inline-block text-sm font-extrabold text-[#F26B5E] hover:underline">
+                  <Link href={`${BASE}/contact#book`} className="mt-3 inline-block text-sm font-extrabold text-[#F26B5E] hover:underline">
                     {t.nav.book} →
                   </Link>
                 </div>

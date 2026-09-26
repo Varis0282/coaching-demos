@@ -49,7 +49,7 @@ export default function Home() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="mt-9 flex flex-wrap justify-center gap-4"
           >
-            <Link href={`${BASE}/contact`} className="rounded-full bg-gradient-to-r from-cyan-400 to-lime-400 px-8 py-3.5 font-bold text-[#05070F] shadow-xl shadow-cyan-500/30 transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="rounded-full bg-gradient-to-r from-cyan-400 to-lime-400 px-8 py-3.5 font-bold text-[#05070F] shadow-xl shadow-cyan-500/30 transition-transform hover:scale-105">
               {t.hero.cta1}
             </Link>
             <a href={`tel:${inst.phoneRaw}`} className="flex items-center gap-2 rounded-full border border-white/20 px-8 py-3.5 font-bold text-white transition-colors hover:bg-white/10">

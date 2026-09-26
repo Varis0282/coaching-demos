@@ -40,7 +40,7 @@ export default function Results() {
             : "और बोर्ड, NTSE, SSC व बैंकिंग में सैकड़ों और — पूरी चयन सूची रिसेप्शन पर उपलब्ध है।"}
         </p>
         <div className="mt-8 pb-10 text-center">
-          <Link href={`${BASE}/contact`} className="bg-[#14684B] px-8 py-4 font-bold text-white transition-colors hover:bg-[#0F5138]">
+          <Link href={`${BASE}/contact#book`} className="bg-[#14684B] px-8 py-4 font-bold text-white transition-colors hover:bg-[#0F5138]">
             {t.hero.cta1}
           </Link>
         </div>

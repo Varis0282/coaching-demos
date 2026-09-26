@@ -28,7 +28,7 @@ export default function Faculty() {
                     <p className="mt-3 flex items-center gap-2 text-xs uppercase tracking-wider text-[#8B949E]">
                       <Clock className="h-4 w-4 text-[#2F6BFF]" /> {f.slots}
                     </p>
-                    <Link href={`${BASE}/contact`} className="mt-5 inline-block border border-[#2F6BFF] px-5 py-2 text-xs font-bold uppercase tracking-wider text-[#2F6BFF] transition-colors hover:bg-[#2F6BFF] hover:text-white">
+                    <Link href={`${BASE}/contact#book`} className="mt-5 inline-block border border-[#2F6BFF] px-5 py-2 text-xs font-bold uppercase tracking-wider text-[#2F6BFF] transition-colors hover:bg-[#2F6BFF] hover:text-white">
                       {t.nav.book}
                     </Link>
                   </div>

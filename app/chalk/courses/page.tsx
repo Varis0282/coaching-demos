@@ -25,7 +25,7 @@ export default function Courses() {
                   <Num n={i + 1} />
                 </div>
                 <p className="mt-4 text-neutral-600">{d.desc}</p>
-                <Link href={`${BASE}/contact`} className="mt-4 inline-block border-b-2 border-[#14684B] pb-0.5 text-sm font-bold text-[#14684B] hover:border-[#111111] hover:text-[#111111]">
+                <Link href={`${BASE}/contact#book`} className="mt-4 inline-block border-b-2 border-[#14684B] pb-0.5 text-sm font-bold text-[#14684B] hover:border-[#111111] hover:text-[#111111]">
                   {t.nav.book} →
                 </Link>
               </div>
